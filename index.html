@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>The Cafe</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="header">
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="#where">Where</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Navbar -->
+
+    <!-- Hero -->
+    <div id="home" class="hero-section">
+        <span>
+            the 
+            <br>
+            Cafe
+        </span>
+        <div class="hero-text">
+            15 Adr street, 5015
+        </div>
+    </div>
+
+    <!-- Hero -->
+
+    <!-- About -->
+    <div id="about" class="content-section about-section">
+        <h5 class="section-heading">
+            <span class="heading-span">About the cafe</span>
+        </h5>
+        <p class="about-text">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="about-text">In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+        <div class="about-subsection">
+            <p class="about-text">
+                <i>
+                    "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.
+                </i>
+            </p>
+            <p class="about-text">
+                <i>
+                    Chef, Coffeeist and Owner: Liam Brown
+                </i>
+            </p>
+        </div>
+        <img src="/assets/img/cafe2.jpeg" alt="">
+        <p class="about-text">
+            <strong>Opening hours: </strong> everyday from 6am to 5pm.
+        </p>
+        <p class="about-text">
+            <strong>Address: </strong>  15 Adr street, 5015
+        </p>
+    </div>
+    
+    
+    <!-- About -->
+    
+    <!-- Menu -->
+
+    <div id="menu" class=" content-section menu-section">
+        <h5 class="section-heading">
+            <span class="heading-span">The Menu</span>
+        </h5>
+
+        <div class="menu-bar">
+            <a data-tab-target="#eat" class="active tab" >Eat</a>
+            <a data-tab-target="#drink" class="tab"> Drink</a>
+        </div>
+
+        <div id="eat" data-tab-content class=" active menu-items-eat">
+            <h5 class="food-name">Bread Basket</h5>
+            <p class="food-description">Assortment of fresh baked fruit breads and muffins 5.50</p>
+
+            <h5 class="food-name">Honey Almond Granola with Fruits</h5>
+            <p class="food-description">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+
+            <h5 class="food-name">Belgian Waffle</h5>
+            <p class="food-description">Vanilla flavored batter with malted flour 7.50</p>
+
+            <h5 class="food-name">Scrambled eggs</h5>
+            <p class="food-description">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+
+            <h5 class="food-name">Blueberry Pancakes</h5>
+            <p class="food-description">With syrup, butter and lots of berries 8.50</p>
+        </div>
+
+        <div id="drink" data-tab-content class="menu-items-drink">
+            <h5 class="food-name">Coffee</h5>
+            <p class="food-description">Regular coffee 2.50</p>
+
+            <h5 class="food-name">Chocolato</h5>
+            <p class="food-description">Chocolate espresso with milk 4.50</p>
+
+            <h5 class="food-name">Corretto</h5>
+            <p class="food-description">Whiskey and coffee 5.00</p>
+
+            <h5 class="food-name">Iced tea</h5>
+            <p class="food-description">Hot tea, except not hot 3.00</p>
+
+            <h5 class="food-name">Soda</h5>
+            <p class="food-description">Coke, Sprite, Fanta, etc. 2.50</p>
+        </div>
+
+        <img src="/assets/img/coffeehouse2.jpeg" alt="">
+    </div>
+
+
+    <!-- Menu -->
+
+
+    <!-- Where -->
+
+    <div id="where" class=" content-section map-section">
+        <h5 class="section-heading">
+            <span class="heading-span">Where to find us</span>
+        </h5>
+        <p>Find us at some address at some place.</p>
+
+        <img src="/assets/img/map.jpeg" alt="">
+
+        <p class="contact-des">
+            <span><strong>FYI!</strong> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</span>
+        </p>
+
+        <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+
+        <form action="">
+            <input required type="text" name="" id="input" placeholder="Name" >
+            <input required type="number" name="" id="input" placeholder="How many people" >
+            <input required type="date" name="" id="input" placeholder="" >
+            <input required type="text" name="" id="input" placeholder="Message/ Special Requirements" >
+            <button>Send Message</button>
+        </form>
+    </div>
+
+
+    <footer>
+        <button><a href="#">Back to Top</a></button>
+    </footer>
+
+    <!-- Where -->
+
+    <script src="/app.js"></script>
+
+</body>
+</html>
